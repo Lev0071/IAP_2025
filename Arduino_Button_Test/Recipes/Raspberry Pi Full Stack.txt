@@ -1,0 +1,308 @@
+Raspberry Pi Full Stack
+
+
+Play
+1. 0010 - What is this course about
+12min
+Play
+2. 0030 - Parts you will need
+5min
+Play
+3. 0060 - Code repository
+4min
+Play
+4. 0070 – Course update briefing
+11min
+Play
+5. 0110 - Raspberry Pi 3 specs and features
+3min
+Play
+6. 0111 - Raspberry Pi 4 specs and features
+8min
+Play
+7. 0120 - Raspberry Pi models
+9min
+Play
+8. 0130a - Raspberry Pi vs Arduino high level comparison
+13min
+Play
+9. 0130b - Raspberry Pi vs Arduino comparing the boards
+6min
+Play
+10. 0160 - Operating systems for the Raspberry Pi
+9min
+Play
+11. 0165 - Headless vs GUI
+7min
+Start
+12. Read this before you install the Raspberry Pi OS (in the next lecture)
+1min
+Play
+13. 0170 - Download and Install Raspbian Lite
+6min
+Play
+14. 0180 - How to enable SSH and configure Wifi in headless mode
+6min
+Play
+15. 0190a - Boot for the first time and basic configuration
+3min
+Play
+16. 0190b - Connect for the first time using Mac OS
+7min
+Play
+17. 0190c - Boot for the first time and connection using Windows
+3min
+Play
+18. 0210a - Working as the "root" user
+5min
+Play
+19. 0210b - How to enable the "root" user for logging on with SSH
+5min
+Play
+20. 0220a - Backup an SD card (Mac OS)
+8min
+Play
+21. 0220b - Restore an SD card (Mac OS)
+6min
+Play
+22. 0220c - Backup an SD card (Windows)
+7min
+Play
+23. 0220d - Restore an SD card (Windows)
+6min
+Play
+24. 0250 - The Rapsberry Pi GPIO header and numbering system
+10min
+Play
+25. 0260a - A taste of Python on the Command Line Interpreter
+11min
+Play
+26. 0260b - A taste of Python on the Command Line Interpreter Functions
+9min
+Play
+27. 0270a - A taste of Python with a simple program
+15min
+Play
+28. 0280 - Wire a simple circuit
+9min
+Play
+29. 0290a - Install the Python installer program pip
+2min
+Play
+30. 0290b - Manipulate an LED using rpi.gpio
+5min
+Play
+31. 0300 - Read a button
+5min
+Play
+32. 0305 - Control an LED with a button
+2min
+Start
+33. Please read before you continue: DHT22 library update
+1min
+Play
+34. 0310a - Install Git and the DHT library
+5min
+Play
+35. 0310b - Use the DHT22 sensor
+5min
+Play
+36. 0340 - The Web Application Stack
+9min
+Play
+37. 0350 - The Python Virtual Environment
+6min
+Play
+38. 0360a - Set up system Python - preparation
+4min
+Play
+39. 0360b - Download, compile and install Python 3
+10min
+Play
+40. 0365 - Setup the app Python Virtual Environment
+8min
+Play
+41. 0430a - Setup Nginx
+2min
+Play
+42. 0430b - Setup Flask
+3min
+Play
+43. 0435 - A tour of a simple Flask app
+12min
+Play
+44. 0440a - uWSGI installation
+2min
+Play
+45. 0440b - Nginx configuration
+5min
+Play
+46. 0440c - USWGI configuration
+4min
+Play
+47. 0440d - USWGI and Nginx configuration testing
+2min
+Play
+48. 0450 - Configure systemd to auto-start uwsgi
+8min
+Play
+49. 0460a - Install SQlite3
+2min
+Play
+50. 0460b - Working with SQlite3
+6min
+Play
+51. 0470a - Static assets and the Skeleton boilerplate CSS
+2min
+Play
+52. 0470b - Setup the static assets directory
+4min
+Play
+53. 0470c - Introducing the Skeleton boilerplate CSS
+3min
+Play
+54. 0470d - Copying files using SFTP
+7min
+Play
+55. 0480 - Flask templates
+7min
+Play
+56. 0497 - Debugging a Flask app
+8min
+Play
+57. 0500a - Introduction to the section - Getting started with our web application
+1min
+Play
+58. 0500b - Install the DHT library and the rpi-gpio module
+3min
+Play
+59. 0500c - Install the DHT library and the rpi-gpio module
+10min
+Play
+60. 0510 - Create a database to store sensor data
+8min
+Play
+61. 0520 - Sensor data capture script
+7min
+Play
+62. 0530 - Schedule sensor readings with cron
+9min
+Play
+63. 0540a - Display database records in the browser - Python script
+6min
+Play
+64. 0540b - Display database records in the browser - Template
+7min
+Play
+65. 0560a - Introduction - Implement the datetime range selection feature
+3min
+Play
+66. 0560b - Select range of records in SQLite
+6min
+Play
+67. 0570 - Set datetime range in URL and show records in browser
+15min
+Play
+68. 0580 - URL querystring validation
+7min
+Play
+69. 0590 - Quick tidying up
+10min
+Play
+70. 0595 - Adding radio buttons for quick timedate range selection
+10min
+Play
+71. 0597 - Provision the Python script to work with the radio buttons
+11min
+Play
+72. 0610a - Introduction to Google Charts
+5min
+Play
+73. 0610b - Implementation of Google Charts
+11min
+Play
+74. 0610c - Testing Google Charts
+2min
+Play
+75. 0650a - Introduction to the datetime picker widget
+6min
+Play
+76. 0650b - Implement the datetime picker widget
+6min
+Play
+77. 0650c - Upload and test the datetime picker widget
+3min
+Play
+78. 0665 - Adjust datetimes to local time zone on the client side
+13min
+Play
+79. 0670a - Introduction to Arrow
+5min
+Play
+80. 0670b - Implement Arrow
+6min
+Play
+81. 0670c - Upload timezone changes and test
+6min
+Play
+82. 0680 - Link the two pages of the application
+7min
+Start
+83. Please read before you begin this section
+1min
+Play
+84. 0710a - Install Plotly
+7min
+Play
+85. 0710b - Try out Plotly on the command line
+3min
+Play
+86. 0720a - Implement Plotly support on the client side
+10min
+Play
+87. 0720b - How to debug Javascript
+5min
+Play
+88. 0730a - Add Plotly support to the app script
+10min
+Play
+89. 0730b - Server side debugging example
+8min
+Play
+90. 0810 - Setting a static IP address
+8min
+Play
+91. 0850 - Expose your app to the Internet with port forwarding
+10min
+Play
+92. 0760 - Recap and what's next
+2min
+Start
+93. Bonus Lecture
+1min
+Play
+94. 19.10 Introduction to the application update
+12min
+Play
+95. 19.20 Backup and update apt packages
+13min
+Play
+96. 19.30 Update system Python to 3.8.13
+9min
+Play
+97. 19.40 Update Python Virtual Environment to 3.8.13
+8min
+Play
+98. 19.50 Update application Python modules
+13min
+Play
+99. 19.55 Update the RF24 driver
+9min
+Play
+100. 19.60 Update Javascript, JS libraries and other assets
+14min
+Play
+101. 19.70 Testing the full stack app (successful)
+9min
+Play
+102. 19.75 Tweak the application to work with the updated components

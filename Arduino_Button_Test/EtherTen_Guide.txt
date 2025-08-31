@@ -1,0 +1,19 @@
+Here’s the EtherTen-vs-Uno cheat sheet for your I²C setup:
+
+I²C pins are the same: Use A4 = SDA, A5 = SCL. EtherTen just lacks the extra SDA/SCL header some Uno R3s have.
+
+SD card CS on D4: Avoid using D4 for your button/IO. If present, set pinMode(4, OUTPUT); digitalWrite(4, HIGH); to keep SD deselected.
+
+Ethernet (W5100) uses SPI: D10–D13 are SPI. Don’t repurpose them while Ethernet/SD is in play. (D13 is SCK and the onboard LED—toggling it can disturb SPI if Ethernet is active.)
+
+Possible INT line: Some EtherTen revs wire W5100 INT to D2. If you use Ethernet, avoid D2 for other interrupts/IO.
+
+Level shifting to the Pi: Pi is 3.3 V — use your XC4486 (LV↔Pi, HV↔EtherTen). Ensure common GND.
+
+Pull-ups: The Pi has 3.3 V pull-ups; many BSS138 shifters are weak on the 5 V side. If bus is flaky, add 4.7–10 kΩ pull-ups to +5 V on EtherTen’s A4/A5.
+
+Reply size consistency: If your master does read_byte(), make your slave always return exactly 1 byte (at least for bring-up).
+
+Address sanity: Uncomment exactly one #define SLAVE_ADDRESS 0xNN that matches your master’s scan.
+
+Do those, and the EtherTen behaves just like your Unos on I²C.

@@ -1,0 +1,215 @@
+Raspberry Pi and Arduino - Go to The Next Level
+
+Play
+1. Welcome!
+2min
+Play
+2. Raspberry Pi vs Arduino, Raspberry Pi and Arduino?
+9min
+Play
+3. List of Materials for this Course
+5min
+Play
+4. How to Follow the Course
+2min
+Play
+5. Intro
+1min
+Play
+6. Install Raspberry Pi OS Without a Monitor - Recap
+39min
+Play
+7. Install and Configure Arduino IDE on Raspberry Pi OS
+10min
+Play
+8. Intro
+2min
+Play
+9. Hardware and Software Setup for Serial
+7min
+Play
+10. Initiate Serial Communication
+13min
+Play
+11. Send Data from Arduino to Raspberry Pi
+12min
+Play
+12. Send Data from Raspberry Pi to Arduino
+10min
+Play
+13. Create a Bidirectional Communication
+7min
+Play
+14. Debug Serial Communication if Can’t Connect
+3min
+Play
+15. Retry Connecting with Python if Failed
+5min
+Play
+16. Intro
+1min
+Play
+17. Activity 01 - Power on/off Arduino LED from Raspberry Pi
+4min
+Play
+18. Activity 01 - Solution
+16min
+Play
+19. Activity 02 - Bidirectional Communication
+5min
+Play
+20. Activity 02 - Solution
+10min
+Play
+21. Activity 03 - Asynchronous Bidirectional Communication
+2min
+Play
+22. Activity 03 - Solution
+12min
+Play
+23. Intro
+2min
+Play
+24. RGB LED - Circuit
+7min
+Play
+25. RGB LED - Code
+5min
+Play
+26. Push Button - Circuit
+3min
+Play
+27. Push Button - Code (With Debounce)
+7min
+Play
+28. Buzzer - Circuit
+2min
+Play
+29. Buzzer - Code
+2min
+Play
+30. LCD Screen - Circuit
+8min
+Play
+31. LCD Screen - Code
+5min
+Play
+32. Servo Motor - Circuit
+7min
+Play
+33. Servo Motor - Code
+6min
+Play
+34. Intro
+1min
+Play
+35. Activity 04 - Debug Serial Using LCD Screen
+2min
+Play
+36. Activity 04 - Solution
+6min
+Play
+37. Activity 05 - Set RGB LED from the Raspberry Pi, when Pressing on Push Button
+4min
+Play
+38. Activity 05 - Solution
+19min
+Play
+39. Activity 06 - Sweep Servo From the Raspberry Pi
+6min
+Play
+40. Activity 06 - Solution
+19min
+Play
+41. Intro
+1min
+Play
+42. Camera - Hardware Setup
+4min
+Play
+43. Camera - Software Setup
+8min
+Play
+44. Camera - Get Photo with Python
+7min
+Play
+45. Telegram Bot - Setup Telegram Account
+3min
+Play
+46. Telegram Bot - Create a Bot and Save the Token
+9min
+Play
+47. Telegram Bot - Handle Remote Commands
+9min
+Play
+48. Telegram Bot - Send Notifications and Messages to Your Phone
+5min
+Play
+49. Telegram Bot - Complete Program
+7min
+Play
+50. Intro
+1min
+Play
+51. Activity 07 - Send a Notification to Telegram when Arduino Board is Connected
+1min
+Play
+52. Activity 07 - Solution
+11min
+Play
+53. Activity 08 - Choose RGB LED Color and LCD Text From Telegram
+4min
+Play
+54. Activity 08 - Solution
+20min
+Play
+55. Activity 09 - Take Photos and Send Last One to Telegram when Button is Pressed
+1min
+Play
+56. Activity 09 - Solution
+19min
+Play
+57. Intro - Project Overview
+6min
+Play
+58. Step 1 (Protocol) - Define the Protocol we will Use (Serial, Telegram)
+8min
+Play
+59. Step 2 (Arduino) - Init Hardware Components
+10min
+Play
+60. Step 3 (Arduino) - Write to Serial when Button is Pressed
+7min
+Play
+61. Step 4 (Arduino) - Get Commands from Serial and Execute Them
+18min
+Play
+62. Step 5 (RPi) - Get Button Pressed Message from Serial
+15min
+Play
+63. Step 6 (RPi) - Take Photo when Button is Pressed
+5min
+Play
+64. Step 7 (RPi) - Send Message and Photo to Telegram
+14min
+Play
+65. Step 8 (RPi) - Open the Door From Telegram
+20min
+Play
+66. Step 9 (RPi) - Deny Access From Telegram
+11min
+Play
+67. Step 10 (systemd) - Make the Intercom System Start on Boot
+11min
+Play
+68. Project Conclusion - Going Further
+5min
+Play
+69. Build an App with Raspberry Pi and Arduino - Step by Step Process Recap
+3min
+Play
+70. What to do next
+2min
+Start
+71. Bonus Lecture
+2min

@@ -1,0 +1,755 @@
+45-Day Raspberry Pi Bootcamp
+
+Start
+1. Introduction to Raspberry Pi
+8min
+Start
+Role Play 1: Introductory Interview: Readiness for a Comprehensive Raspberry Pi Bootcamp
+Role Play
+Start
+2. Welcome to the 45-Day Raspberry Pi Bootcamp: Maximizing Your Learning Experience
+8min
+Play
+3. Introduction and What you will get when you join
+3min
+Play
+4. Quick Intro To Raspberry Pi World
+6min
+Play
+5. 10 Uses for Raspberry Pi Board
+3min
+Play
+6. Different Versions of Raspberry Pi
+3min
+Play
+7. Raspberry Pi Components
+3min
+Play
+8. OS Versions Available for Raspberry Pi
+7min
+Play
+9. Arduino Vs Raspberry Pi Vs BeagleBone
+7min
+Play
+10. Course Material Works with any high tech board!
+2min
+Play
+11. What do you need to Run the Raspberry Pi
+6min
+Play
+12. Getting OS and Running Raspberry Pi
+9min
+Play
+13. Setting Up Raspberry Pi for the First Time
+4min
+Play
+14. Simulating Raspberry Pi
+5min
+Play
+15. Simple Starter Kit
+7min
+Play
+16. Raspberry Pi Modeb B Unboxing
+1min
+Play
+17. A tour inside Raspberry Pi Operating System
+4min
+Play
+18. Raspberry Pi Command Line
+6min
+Play
+19. Updating Software Packages
+6min
+Play
+20. Control Raspberry Pi from another Device using SSH
+4min
+Play
+21. Control Raspberry Pi from another Device using VNC Server
+8min
+Play
+22. Assign A fix IP Address for Raspberry Pi Board
+4min
+Play
+23. Connecting Raspberry Pi to another computer using Network Cable
+4min
+Play
+24. Programming GPIO with Python
+4min
+Play
+25. Python and Your First Code
+8min
+Play
+26. Installing the Control Library
+3min
+Play
+27. Example 1 Blinking Led
+7min
+Play
+28. Example Two Reading Input Values From A Switch
+3min
+Play
+29. Example Three Running the Led Using LDR
+3min
+Play
+30. Example Four PIR Motion Detector
+4min
+Play
+31. BCM Numbering instead of Numbering by Order
+2min
+Play
+32. Adafruit Protection Box and Connection Cable
+2min
+Play
+33. The End
+2min
+Play
+34. Who We Are
+5min
+Play
+35. Introduction
+3min
+Play
+36. Why Python
+3min
+Play
+37. Download and Install Python
+12min
+Play
+38. Hello World and Help Function
+9min
+Play
+39. Variables and basic data types in Python
+12min
+Play
+40. Commenting your code
+7min
+Play
+41. Reading keyboard input
+11min
+Play
+42. Exercise - Build a program to say Hello
+5min
+Play
+43. Exercise Build a simple calculator app
+8min
+Play
+44. Conditional Statement
+15min
+Play
+45. Loops For Loop
+14min
+Play
+46. Loops While Loop
+8min
+Play
+47. Exercise User Name and Password
+5min
+Play
+48. Introduction
+3min
+Play
+49. Hardware and Software Requirements
+2min
+Play
+50. Download and Install Arduino Pro IDE
+3min
+Play
+51. Download and Install Windows 10 IoT Core on SD Card
+6min
+Play
+52. Download and Install Visual Studio for Coding
+7min
+Play
+53. Windows Device Portal Walkthrough
+9min
+Play
+54. I2C Overview
+9min
+Play
+55. Arduino Wire Library
+3min
+Play
+56. I2C Circuit Connection
+6min
+Play
+57. Arduino Coding
+10min
+Play
+58. Windows IoT User Interface
+7min
+Play
+59. Windows IoT C Backend Coding
+16min
+Play
+60. Practical Connection
+2min
+Play
+61. Practical Testing
+2min
+Play
+62. Introduction
+4min
+Play
+63. Where to use i2c communication
+3min
+Play
+64. I2C Pins in Arduino
+3min
+Play
+65. Arduino Wire Library I2C Functions
+10min
+Play
+66. Arduino to Arduino I2C Communication Circuit Design
+4min
+Play
+67. Arduino to Arduino I2C Communication coding
+19min
+Play
+68. Arduino to DS1307 Time and Date Module Circuit Design
+7min
+Play
+69. Introduction
+3min
+Play
+70. Hardware and Software Requirements
+2min
+Play
+71. Download and Install MIT App Inventor
+10min
+Play
+72. Download and Install Arduino Pro IDE
+9min
+Play
+73. What is App Inventor
+2min
+Play
+74. MIT App Inventor User Interface Explained
+4min
+Play
+75. Make your first Mobile App - Blink LED
+14min
+Play
+76. Code your Arduino - Blink LED
+5min
+Play
+77. Proximity Sensor Mobile App
+14min
+Play
+78. Light Sensor
+13min
+Play
+79. Practical Testing
+3min
+Play
+80. Accelerometer Sensor
+14min
+Play
+81. Coding Accelerometer Sensor
+5min
+Play
+82. Gyroscope Sensor Mobile App and Arduino Code
+6min
+Play
+83. Magnetometer Sensor Mobile App and Arduino Code
+5min
+Play
+84. What can you do and system requirements
+3min
+Play
+85. What is app inventor in More Details
+2min
+Play
+86. Java Vs App Inventor
+3min
+Play
+87. Why using App Inventor
+1min
+Play
+88. App Architecture
+4min
+Play
+89. Lets start Making Apps
+5min
+Play
+90. First App Add Items and Start Programming with Blocks
+10min
+Play
+91. First App Testing and Running the App using Emulator
+13min
+Play
+92. First App Testing and Running with USB or APK File
+5min
+Play
+93. Resources you need to visit to Create Better Apps
+2min
+Play
+94. How to Create a website for your app for free and take credit for it
+5min
+Play
+95. App Inventor Overview
+4min
+Play
+96. An App Challenge
+1min
+Play
+97. System Requirements
+1min
+Play
+98. App Inventor Vs Java and C
+3min
+Play
+99. Why App Inventor Works
+2min
+Play
+100. App Architecture
+5min
+Play
+101. Download and Install App Inventor on Your Device
+9min
+Play
+102. App Inventor User Interface with Example
+14min
+Play
+103. Arduino Coding for Led on Off Practical Example
+9min
+Play
+104. Making an Android App for Led On Off Practical Example
+12min
+Play
+105. Testing On Off App with Arduino
+7min
+Play
+106. Make a Log In Protected Led Control App
+14min
+Play
+107. Slider Application to Control Led Brightness
+15min
+Play
+108. Slider Practical
+9min
+Play
+109. Practical Connect Bluetooth Module
+5min
+Play
+110. RGB Led Controller Android Application
+14min
+Play
+111. RGB LED Arduino Coding
+12min
+Play
+112. Sensor Readings Arduino Coding
+9min
+Play
+113. Sensor Readings Android Application
+17min
+Play
+114. Relay On Off Simple Example
+8min
+Play
+115. LCD Text Arduino Coding
+9min
+Play
+116. LCD Text Android Application
+6min
+Play
+117. Remote Controlled Robot Android Application
+9min
+Play
+118. Remote Controlled Robot Arduino Coding
+15min
+Play
+119. Make Money with MIT App Inventor Apps
+5min
+Play
+120. How to read analog sensors using Arduino
+2min
+Play
+121. Software Requirements
+4min
+Play
+122. Wiring Analog Sensors to Arduino
+9min
+Play
+123. Writing code to collect reading from analog sensors
+7min
+Play
+124. Practical Analog Sensor Testing
+3min
+Play
+125. Analyze and convert Sensor Reading
+3min
+Play
+126. Manipulating Sensors Reading
+6min
+Play
+127. ADC in Arduino Explained
+14min
+Play
+128. Introduction
+3min
+Play
+129. Download Raspian Operating System for Raspberry Pi
+2min
+Play
+130. Install Raspbian Operating System on the SD Card
+7min
+Play
+131. Starting Raspian and Getting the Code and Libraries
+2min
+Play
+132. Downloading and Installing pip
+2min
+Play
+133. Installing Dependencies
+2min
+Play
+134. Getting API Token for Weather
+3min
+Play
+135. Adding the API Token and Running the Application
+4min
+Play
+136. Before Practical Assembly
+7min
+Play
+137. Practical Assembly
+9min
+Play
+138. Introduction
+4min
+Play
+139. Hardware and Software Requirements
+2min
+Play
+140. What is MQTT and why we need it
+4min
+Play
+141. Create mqtt server account
+4min
+Play
+142. What is ESP32
+5min
+Play
+143. ESP 32 Pinout v1 DOIT
+9min
+Play
+144. ESP8266 Download and Install Arduino ESP and USB Driver
+6min
+Play
+145. ESP32 v1 Download and Install Arduino Development environment
+4min
+Play
+146. Arduino Coding
+12min
+Play
+147. ESP Coding Part1 Define Variables
+7min
+Play
+148. ESP Coding Part2 Wifi and MQTT
+12min
+Play
+149. ESP Coding Part3 Read Incoming Data from Arduino
+11min
+Play
+150. Upload Code to Arduino and Test it
+1min
+Play
+151. Edit Code and Upload it to ESP32 then Test it
+7min
+Play
+152. Final ESP32 Testing
+2min
+Play
+153. Circuit Connection Explained
+7min
+Start
+Practice Test 1: Raspberry Pi Mid Certification 1 Mastery: Test Your Skills
+Play
+154. Introduction
+2min
+Play
+155. Required Material
+3min
+Play
+156. Raspberry Pi and Ultrasonic Sensor
+8min
+Play
+157. IR Sensor and Motor Driver
+3min
+Play
+158. Voltage Regulator and DC Motors
+3min
+Play
+159. Circuit Diagram
+6min
+Play
+160. Code
+3min
+Play
+161. The End
+1min
+Play
+162. Introduction & Getting Started
+4min
+Play
+163. Hardware and Software Requirements
+3min
+Play
+164. Smart Home Rooms Setup
+8min
+Play
+165. Devices and Rooms addressing Mechanism
+3min
+Play
+166. Download and Install Fritzing Software
+6min
+Play
+167. Circuit Schematic Part1
+10min
+Play
+168. Circuit Schematic Part2
+15min
+Play
+169. How to wire home appliances with Relay Module
+6min
+Play
+170. How a Relay Module Works
+5min
+Play
+171. Software and Communication Protocol
+14min
+Play
+172. Software and Communication Protocol Example
+7min
+Play
+173. Download and Install Arduino IDE
+9min
+Play
+174. Arduino Coding Part1
+12min
+Play
+175. Arduino Coding Part2
+9min
+Play
+176. Arduino Coding Part3
+23min
+Play
+177. Download and Install Visual Studio for Coding
+7min
+Play
+178. Download and Install Windows 10 IoT Core on SD Card
+6min
+Play
+179. Windows Device Portal Walkthrough
+9min
+Play
+180. Prepare Environment for Your First Code
+13min
+Play
+181. Classes Diagram
+7min
+Play
+182. User Interface Structure Explained
+7min
+Play
+183. User Interface - Main Dashboard Part1
+13min
+Play
+184. User Interface - Main Dashboard Part2
+15min
+Play
+185. Practical Circuit Connection
+9min
+Play
+186. Practical Testing
+9min
+Play
+187. Hardware and Software Requirements
+2min
+Play
+188. Download and Install Arduino Pro IDE
+3min
+Play
+189. Download and Install Windows 10 IoT Core on SD Card
+6min
+Play
+190. Windows Device Portal Walkthrough
+9min
+Play
+191. Download and Install Visual Studio for Coding
+7min
+Play
+192. I2C Overview
+9min
+Play
+193. Arduino Wire Library
+3min
+Play
+194. I2C Circuit Connection
+6min
+Play
+195. Arduino Coding
+10min
+Play
+196. Windows IoT User Interface
+7min
+Play
+197. Windows IoT C Backend Coding
+16min
+Play
+198. Practical Connection
+2min
+Play
+199. Practical Testing
+2min
+Play
+200. Where to use i2c communication
+3min
+Play
+201. I2C Pins in Arduino
+3min
+Play
+202. Arduino Wire Library I2C Functions
+10min
+Play
+203. Arduino to Arduino I2C Communication Circuit Design
+4min
+Play
+204. Arduino to Arduino I2C Communication coding
+19min
+Play
+205. Arduino to DS1307 Time and Date Module Circuit Design
+7min
+Play
+206. Introduction
+5min
+Play
+207. Introduction to SCADA
+8min
+Play
+208. Functions and Alarms
+10min
+Play
+209. Hardware and Software Requirements
+2min
+Play
+210. Download and Install Arduino IDE
+9min
+Play
+211. Arduino Board
+4min
+Play
+212. Circuit Connection
+9min
+Play
+213. Coding
+9min
+Play
+214. Testing First Board
+4min
+Play
+215. Important Concepts
+3min
+Play
+216. Raspberry Pi Python Coding
+12min
+Play
+217. Create SCADA Web Interface
+15min
+Play
+218. Download and Install Raspian OS on Your Raspberry Pi Board
+3min
+Play
+219. Enable SSH and Update Raspian
+9min
+Play
+220. Final Practical Implementation
+10min
+Play
+221. Quick Intro To Raspberry Pi World
+6min
+Play
+222. 10 Uses for Raspberry Pi Board
+3min
+Play
+223. Different Versions of Raspberry Pi
+3min
+Play
+224. Raspberry Pi Components
+3min
+Play
+225. OS Versions Available for Raspberry Pi
+7min
+Play
+226. Arduino Vs Raspberry Pi Vs BeagleBone
+7min
+Play
+227. Course Material Works with any high-tech board!
+2min
+Play
+228. What do you need to RunThe Raspberry Pi
+6min
+Play
+229. Getting OS and Running Raspberry Pi
+9min
+Play
+230. Setting Up Raspberry Pi for the First Time
+4min
+Play
+231. Simulating Raspberry Pi
+5min
+Play
+232. A Tour inside Raspberry Pi Operating System
+4min
+Play
+233. Raspberry Pi Command Line
+6min
+Play
+234. Updating Software Packages
+6min
+Play
+235. Control Raspberry Pi Board From another device
+4min
+Play
+236. Control Raspberry Pi from another Device using VNC Server
+8min
+Play
+237. Assign A fix IP Address for Raspberry Pi Board
+4min
+Play
+238. Connecting Raspberry Pi to another computer using Network Cable
+4min
+Play
+239. Programming GPIO with Python
+4min
+Play
+240. Python and Your First Code
+8min
+Play
+241. Installing the Control Library
+3min
+Play
+242. Example 1 Blinking Led
+7min
+Play
+243. Example Two Reading Input Values From A Switch
+3min
+Play
+244. Example Three Running the Led Using LDR
+3min
+Play
+245. Example Four PIR Motion Detector
+4min
+Start
+246. Final Course Project
+2min
+Start
+Role Play 2: System Demo: Raspberry Pi Capstone Project from 45-Day Bootcamp
+Role Play
+Start
+Practice Test 2: Raspberry Pi Final Certification Mastery: Test Your Skills
+Start
+247. 45-Day Raspberry Pi Bootcamp: What’s Next?
+8min
+Play
+248. Bonus Lecture

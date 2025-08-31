@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Mermaid Diagram</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true, securityLevel: 'loose', theme: 'default' });
+  </script>
+  <style>
+    .mermaid{padding:12px;border-radius:8px;background:#f6f8fa}
+    body{font-family:system-ui,Segoe UI,Roboto,Arial}
+  </style>
+</head>
+<body>
+<div class="mermaid">
+flowchart TD
+  A[Start main] --> B[GPIO setup via gpiod select chip request lines]
+  B --> C[Power Arduinos ON set Solenoid2Line INACTIVE]
+  C --> D["perform_scan()"]
+  D --> D1{Loop over I2C addresses<br/>call is_arduino_on addr bus}
+  D1 -- True --> D2[Create Button object and add to list]
+  D1 -- False --> D3[Skip address]
+  D2 --> E[Scan complete print detected list]
+  D3 --> E
+  E --> F[Start threads button_loop daemon and process_commands daemon]
+  F --> G[Flask app runs root UI]
+
+  subgraph Rescan_triggers
+    H[stdin scan command] --> D
+    I[Flask scan_button_pressed] --> D
+    J[reset_arduino then scan] --> D
+  end
+
+  subgraph Threads
+    K[button_loop update LEDs read button states manage hose]
+    L[process_commands reset_arduino scan list random coop etc]
+  end
+
+  F --> K
+  F --> L
+</div>
+</body>
+</html>

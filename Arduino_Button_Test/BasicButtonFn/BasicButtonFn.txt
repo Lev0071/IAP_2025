@@ -1,0 +1,97 @@
+/*
+  Universal I2C Slave: Button + LED
+  Boards: Arduino Leonardo R2, Arduino Uno, Freetronics EtherTen (Uno-compatible), Arduino Mega 2560
+
+  Wiring (same on all boards):
+    - LED (with 220 Ω series resistor) -> D13  (GND -> other LED leg)
+    - Momentary NO pushbutton -> D4 to GND    (uses INPUT_PULLUP, so no 10k needed)
+
+  I2C pins for each board (Wire.begin(addr) uses the correct hardware automatically):
+    - Uno / EtherTen:      SDA = A4, SCL = A5
+    - Mega 2560:           SDA = 20, SCL = 21
+    - Leonardo R2:         SDA = D2, SCL = D3   (also broken out on SDA/SCL header near AREF)
+
+  SLAVE ADDRESS PICKER (decimal 8..24):
+    // Choose ONE of these and put it in SLAVE_ADDRESS below:
+    //  8  (0x08),  9  (0x09), 10 (0x0A), 11 (0x0B), 12 (0x0C), 13 (0x0D), 14 (0x0E), 15 (0x0F),
+    // 16 (0x10), 17 (0x11), 18 (0x12), 19 (0x13), 20 (0x14), 21 (0x15), 22 (0x16), 23 (0x17), 24 (0x18)
+*/
+
+#include <Wire.h>
+
+// --- Pick your slave address here (any decimal 8..24 as listed above) ---
+#define SLAVE_ADDRESS 0x08   // change to 0x09..0x18 if you like
+// #define SLAVE_ADDRESS 0x09
+// #define SLAVE_ADDRESS 0x0A	
+// #define SLAVE_ADDRESS 0x0B	
+// #define SLAVE_ADDRESS 0x0C	
+// #define SLAVE_ADDRESS 0x0D	
+// #define SLAVE_ADDRESS 0x0E	
+// #define SLAVE_ADDRESS 0x0F	
+// #define SLAVE_ADDRESS 0x10	
+// #define SLAVE_ADDRESS 0x11	
+// #define SLAVE_ADDRESS 0x12	
+// #define SLAVE_ADDRESS 0x13	
+// #define SLAVE_ADDRESS 0x14	
+// #define SLAVE_ADDRESS 0x15	
+// #define SLAVE_ADDRESS 0x16	
+// #define SLAVE_ADDRESS 0x17	
+// #define SLAVE_ADDRESS 0x18
+
+// Common pins across all boards (avoid D2/D3 because Leonardo uses them for I2C)
+const uint8_t LED_PIN  = 13;
+const uint8_t BTN_PIN  = 4;
+
+// Debounce settings
+const uint16_t DEBOUNCE_MS = 25;
+uint8_t stableState = HIGH;      // because INPUT_PULLUP -> not pressed = HIGH
+uint8_t lastRead    = HIGH;
+unsigned long lastEdgeMs = 0;
+
+// Latest debounced "pressed?" value we share with I2C (0 or 1)
+volatile uint8_t pressedFlag = 0;
+
+void setup() {
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, LOW);
+
+  pinMode(BTN_PIN, INPUT_PULLUP);  // internal pull-up -> button to GND
+
+  Wire.begin(SLAVE_ADDRESS);       // become I2C slave at chosen address
+  Wire.onRequest(onI2CRequest);    // master asks -> we send 1 byte (pressed/not)
+  Wire.onReceive(onI2CReceive);    // master writes 1 byte -> control LED
+
+  // Optional debug
+  // Serial.begin(9600);
+}
+
+void loop() {
+  // Simple debounce: sample the button and update pressedFlag
+  uint8_t reading = digitalRead(BTN_PIN);
+  unsigned long now = millis();
+
+  if (reading != lastRead) {
+    lastEdgeMs = now;              // possible edge, start debounce timer
+  }
+  if ((now - lastEdgeMs) >= DEBOUNCE_MS && reading != stableState) {
+    stableState = reading;         // debounced new state
+    // pressed when INPUT_PULLUP line is LOW
+    pressedFlag = (stableState == LOW) ? 1 : 0;
+  }
+  lastRead = reading;
+}
+
+// Sends 1 byte: 1 = pressed, 0 = not pressed
+void onI2CRequest() {
+  Wire.write(pressedFlag);
+}
+
+// Receives 1 byte to set LED: 0 = off, nonzero = on
+void onI2CReceive(int count) {
+  if (count <= 0) return;
+  uint8_t cmd = Wire.read();
+  digitalWrite(LED_PIN, (cmd == 0) ? LOW : HIGH);
+
+  // If more bytes arrive, discard them
+  while (Wire.available()) (void)Wire.read();
+}

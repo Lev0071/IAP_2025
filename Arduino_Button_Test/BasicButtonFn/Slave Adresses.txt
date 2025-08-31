@@ -1,0 +1,37 @@
+#define SLAVE_ADDRESS 0x08
+#define SLAVE_ADDRESS 0x09
+#define SLAVE_ADDRESS 0x0A	
+#define SLAVE_ADDRESS 0x0B	
+#define SLAVE_ADDRESS 0x0C	
+#define SLAVE_ADDRESS 0x0D	
+#define SLAVE_ADDRESS 0x0E	
+#define SLAVE_ADDRESS 0x0F	
+#define SLAVE_ADDRESS 0x10	
+#define SLAVE_ADDRESS 0x11	
+#define SLAVE_ADDRESS 0x12	
+#define SLAVE_ADDRESS 0x13	
+#define SLAVE_ADDRESS 0x14	
+#define SLAVE_ADDRESS 0x15	
+#define SLAVE_ADDRESS 0x16	
+#define SLAVE_ADDRESS 0x17	
+#define SLAVE_ADDRESS 0x18	
+
+Address → “Button #” mapping (1..17)
+
+Button 1 → 0x08 (8)
+Button 2 → 0x09 (9)
+Button 3 → 0x0A (10)
+Button 4 → 0x0B (11)
+Button 5 → 0x0C (12)
+Button 6 → 0x0D (13)
+Button 7 → 0x0E (14)
+Button 8 → 0x0F (15)
+Button 9 → 0x10 (16)
+Button 10 → 0x11 (17)
+Button 11 → 0x12 (18)
+Button 12 → 0x13 (19)
+Button 13 → 0x14 (20)
+Button 14 → 0x15 (21)
+Button 15 → 0x16 (22)
+Button 16 → 0x17 (23)
+Button 17 → 0x18 (24)

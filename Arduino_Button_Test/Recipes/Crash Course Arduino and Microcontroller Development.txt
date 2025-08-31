@@ -1,0 +1,388 @@
+Crash Course Arduino and Microcontroller Development
+
+
+Lecture thumbnail
+0:00 / 0:00
+Play
+1. Course Overview and Welcome!
+48min
+Play
+2. Installation and Setup
+27min
+Play
+3. Installation and Setup - CodeLite IDE and Compiler
+56min
+Play
+4. Microprocessors and Computer Architecture Fundamentals
+43min
+Play
+5. Microprocessors, Microcontrollers, ALUs, Assembly Language and More
+1hr 2min
+Play
+6. Processor Design Primer: ALU, Control Unit, RTL Logic and Processor Fundamentals
+44min
+Play
+7. Introduction to the Arduino, Hardware, Software, Documentation and Datasheet
+50min
+Play
+8. Introduction to the Arduino UNO, Hardware, IDE, API, Programming and Simulation
+39min
+Play
+9. Hands on with the Arduino, Parts Kits, Solderless boards and Component Intros
+31min
+Play
+10. Blinking an LED with C++ in Hardware
+46min
+Play
+11. Simulating our Arduino Hardware and Code Online with TinkerCAD and Wokwi
+42min
+Play
+12. More Simulation with Code API Emulation on Replit
+51min
+Play
+13. Building a Game From Scratch: The Simon Memory Game, Hardware Design
+29min
+Play
+14. Building a Game From Scratch: The Simon Memory Game, Hardware Build
+24min
+Play
+15. Building a Game From Scratch: The Simon Memory Game, Coding and Firmware
+43min
+Play
+16. Finishing the Simon Game and Introduction to Serial Debugging
+31min
+Play
+17. Porting Simon to Online Simulation
+18min
+Play
+18. Basic Hand Tools for Electronics
+22min
+Play
+19. Working with Soldering Irons and Hot Air Machines without Burning Yourself!
+33min
+Play
+20. Multimeters, Oscilloscopes, Logic Analyzers, Signal Generators and Power
+27min
+Play
+21. Hands on with Test Equipment and Real-Time Experiments with Logic Analyzers
+44min
+Play
+22. The Fundamentals of Electricity, Charge, Current, Voltage, Resistance and Fields
+1hr 10min
+Play
+23. Ohm’s Law, Basic Circuit Analysis, Series and Parallel Circuits
+53min
+Play
+24. Understanding Power, Series and Parallel Batteries, Voltage Dividers and EasyEDA
+1hr 1min
+Play
+25. Ohm's Law++, Kirchhoff's Laws; KVL and KCL
+55min
+Play
+26. Capacitors, Electric Fields, Physics, Charging and Discharging
+1hr 8min
+Play
+27. Inductors, Magnetic Fields, Flux, Lenz’s & Faraday’s Law, Charging/Discharging
+48min
+Play
+28. Reactance, Impedance, Phasors, AC Analysis of Series Capacitive Circuits
+1hr 6min
+Play
+29. Low Pass Filters, Transfer Functions, Gain, Decibels
+1hr 6min
+Play
+30. Low Pass Filter Bench Build, Simulation, Arduino Tone Generator
+1hr 2min
+Play
+31. Basic Semiconductor Devices, Diodes, Rectification, LEDs, Simulation
+1hr 10min
+Play
+32. Transformers, DC Rectification, Understanding Datasheets
+1hr 9min
+Play
+33. Transistor Theory and Applications
+1hr 29min
+Play
+34. Mosfet Theory and Practical Applications
+1hr 15min
+Play
+35. Introduction to Digital Electronics, Boolean Algebra, Gates, and Logic Families
+1hr 7min
+Play
+36. TTL/CMOS Logic Gates, Driving, Sinking Current, Packages and Prototyping
+1hr 6min
+Play
+37. Review of Common TTL/CMOS ICs and Bench Demo of Gates
+59min
+Play
+38. Simulating a Digital Logic Gate Module Using the Arduino
+1hr 6min
+Play
+39. A Tour of Programmable Logic (RAM, FLASH, PALs, GALs, CPLD, FPGA) and Bench Demo
+1hr 12min
+Play
+40. Introducing C/C++, History and Programming Concepts for Embedded Systems
+30min
+Play
+41. Understanding C/C++ Compilers, Code Generation and Tools
+59min
+Play
+42. Working with IDEs, Compiling C++ Programs, and a Bit of Arduino Code
+1hr 15min
+Play
+43. C++ Primer Crash Course, Arduino Emulation and Coding
+45min
+Play
+44. Setting up our C++ Test Platforms
+34min
+Play
+45. C++ Fundamentals, Headers, External Libraries, Printing
+1hr 1min
+Play
+46. C++ Variables, Intrinsic Types, Naming Conventions, and more printf() Formatting
+46min
+Play
+47. C++ Variables, Globals, Locals, Basic Types, Math Operators, and Precedence
+55min
+Play
+48. C++ Mathematics, Understanding Base-N Number Systems with Binary, Hex & Octal
+46min
+Play
+49. C++, Programming Style Guide and Conventions, Macros, Conditional Compilation
+50min
+Play
+50. C++, Built in Math Operators, Binary Bitshift Operations and Using the Debugger
+48min
+Play
+51. More C++ Logical Operators, Conditionals and the "if" Statement, Type Casting
+1hr 4min
+Play
+52. C++ Looping Constructs, "for" and "while"
+1hr 6min
+Play
+53. C++ Switch Statements, Arrays, Strings
+1hr 16min
+Play
+54. C++ Strings, Arrays, Arduino Strings and Functions
+58min
+Play
+55. C++ Measuring Time, Nested Loops and Hardware Build (Finally!)
+1hr 6min
+Play
+56. C++ Console IO C and C++ methods, VT100 Gamepad Hardware Demo
+58min
+Play
+57. C++ Data Structures, Structs, Enums, Linked Lists and Trees
+1hr 10min
+Play
+58. C++ Pointers and References (The Dreaded Duo)
+1hr
+Play
+59. C++ Classes, Methods, Properties and Object Oriented Basics
+51min
+Play
+60. C++ Advanced Classes, Constructors, Destructors, Operator Overloading
+54min
+Play
+61. C++ More Advanced Class Topics, Copy Constructors, Assignments, Deep and Shallow
+34min
+Play
+62. C++ Built in Objects and Including External Arduino Libraries
+55min
+Play
+63. C++ Understanding Microcontroller Memory Management, Globals, Locals, Statics
+58min
+Play
+64. C++ Memory Management and the Heap - Part II
+1hr 5min
+Play
+65. C++ Working with Arduino External Libraries and Objects and a Little Recursion
+1hr 1min
+Play
+66. Introduction to Arduino AVR 8-Bit Architecture; 8-bit Ports, GPIOs and ADC
+36min
+Play
+67. Interfacing to 7-Segment Displays, Switches, Keypads, Rotary Encoders and More
+59min
+Play
+68. Interfacing to 7-Segment Displays, Keypads, Rotary Encoders, & Bench Build II
+37min
+Play
+69. Filtering and Debouncing Deep Dive
+47min
+Play
+70. Analog Interfacing to Potentiometers and Joysticks
+49min
+Play
+71. C++ Exercise Converting the Joystick Code to a Class
+44min
+Play
+72. Interfacing to LEDs and NeoPixels
+1hr 26min
+Play
+73. Assembly Language and Microcontroller Fundamentals, Inline AVR 328p
+1hr 10min
+Play
+74. Assembly Language, Memory, Registers, IO Space, GPIOs, Interfacing with C/C++
+56min
+Play
+75. Working with the UARTs in Assembly
+59min
+Play
+76. Using External Assembly Language and Memory Mapped IO
+1hr 3min
+Play
+77. Using External Assembly Language Part II - Writing a Math API
+57min
+Play
+78. Using External Assembly Language Part III - Variables, Tables, and Addressing
+1hr 3min
+Play
+79. Understanding Microcontroller In Circuit Programming, AVRDUDE, and Fuse Bits
+59min
+Play
+80. Understanding Microcontroller ICP Programming and Configuring the Clock Out Bits
+47min
+Play
+81. Understanding Microcontroller Clocking, Scaling, PLLs and More
+53min
+Play
+82. Understanding Sleep Modes, Interrupts, Polling and Multitasking
+49min
+Play
+83. More Advanced Interrupts and Coding Interrupt Service Routines
+56min
+Play
+84. Understanding Timers, Counters, PWM and Measuring Temporal Events
+56min
+Play
+85. Understanding Timers, Counters, PWM, Timer Interrupts and Waveform Generation
+49min
+Play
+86. Using the Timer and Interrupt Arduino APIs and Pin Change Interrupts
+56min
+Play
+87. Using the Timer and Interrupt Arduino APIs, Pin Change Interrupts Demo - Part II
+50min
+Play
+88. More Advanced Pin Change Interrupts and PIR Sensors
+40min
+Play
+89. The Watchdog Timer "Woof Woof"
+47min
+Play
+90. Power Consumption and Sleep Modes
+53min
+Play
+91. More Sleep and Power Saving Modes
+40min
+Play
+92. Direct Memory Access (DMA)
+24min
+Play
+93. Memory Management Units (MMUs), External Bus Interfaces and External Memories
+55min
+Play
+94. Advanced Debugging, Desktop and Embedded Debugging Ideas for Arduino
+1hr 2min
+Play
+95. Optimization Theory, Assembly Optimization Cycle Counting, Fixed Point Math
+58min
+Play
+96. Optimization Theory, Big O, Fixed Point Math - Part II
+56min
+Play
+97. Advanced Optimization and Data Structures; Linked Lists, Trees & Searching
+56min
+Play
+98. Advanced Optimization, Math Optimizations, Look up Tables, Clock Counting & More
+1hr
+Play
+99. Advanced Optimization, Taylor and Maclaurin Approximations and Fixed Point Math
+56min
+Play
+100. Understanding Multitasking and Real-Time Operating Systems for Embedded
+51min
+Play
+101. Multitasking, Implementing a Mini Kernel with Interrupts
+56min
+Play
+102. Multiasking with our Kernel, LED, Photocell, Servo, Temp Sensor - Part II
+43min
+Play
+103. FreeRTOS and True Multitasking"
+50min
+Play
+104. Serial Protocols UARTs and RS-232 - Part I
+1hr 3min
+Play
+105. Serial Protocols UARTs and RS-232 - Part II, Bench Demo of Terminals
+58min
+Play
+106. Serial Protocols UARTs and RS-232 Part III, Client/Server
+35min
+Play
+107. Introduction to Serial Peripheral Interface (SPI) Protocol
+50min
+Play
+108. Serial Peripheral Interface (SPI), Interfacing to a Temperature Sensor - Part II
+1hr 4min
+Play
+109. Serial Peripheral Interface (SPI), Interfacing to a Temperature Sensor-Part III
+38min
+Play
+110. Serial Peripheral Interface (SPI), Controlling a Digital POT - Part IV
+54min
+Play
+111. Serial Peripheral Interface to an LCD and Game Console Build - Part I
+1hr 4min
+Play
+112. SPI Interface to an LCD and 3D Game Port to Game Console - Part II
+39min
+Play
+113. I2C Serial Protocol, Introduction to Wire Library, Temp and Real Time Clock
+1hr 4min
+Play
+114. I2C Serial Protocol (Inter IC Communications), Interfacing to a Digital POT
+1hr 4min
+Play
+115. I2C Serial Protocol Digital POT Circuit Bench Build, and Demo and Analysis
+56min
+Play
+116. I2C Serial Protocol, SI7021 Temperature and Humidity Sensor Review and Build
+53min
+Play
+117. I2C Serial Protocol, Measuring Time with the DS1307 RTC (Real Time Clock)
+51min
+Play
+118. I2C Serial Protocol - Working with Accelerometers and Gyros
+57min
+Play
+119. Developing with the Ardunio Web/Cloud IDE
+31min
+Play
+120. Introducing the New and Improved(?) Arduino IDE 2.x IDE
+20min
+Play
+121. Working with Visual Studio Code + PlatformIO
+46min
+Play
+122. Visual Studio Code + PlatformIO - Adding Basic Debug Support
+17min
+Play
+123. MPLAB X IDE for AVR and PIC, ARM Cortex M0-M7, Part I - Overview and Install
+54min
+Play
+124. MPLAB X IDE for AVR and PIC, ARM Cortex M0-M7, Part II - Building "Hello World"
+1hr 23min
+Play
+125. ST Micro ARM Cortex Microcontroller and Processor Primer
+39min
+Play
+126. Building Apps with STM32CubeIDE - Part I
+1hr 1min
+Play
+127. Building Apps with STM32CubeIDE (UARTS & IO) - Part II
+57min
+Play
+128. Building Apps with STMicroCubeIDE (Debugging) - Part III
