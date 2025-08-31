@@ -16,6 +16,7 @@ import sys
 from threading import Lock
 
 
+
 I2Cbus = smbus.SMBus(1)
 beepfile = '/server/beep-02.wav'
 Solenoid4Pin = 8
@@ -35,10 +36,17 @@ RANDOM = 1
 COOP = 2
 TOGGLE = 3
 
+# LED mode constants for Button.LEDtype (valid range: [0,3])
 OFF = 0
 SOLID = 1
-BlINK = 2
+BLINK = 2
 ROTATE = 3
+# # LED mode constants for Button.LEDtype (valid range: [0,3])
+# class LEDMode(IntEnum):
+#     OFF    = 0
+#     SOLID  = 1
+#     BLINK  = 2
+#     ROTATE = 3
 
 SOUND_OFF = 0
 SOUND_2500 = 1
@@ -59,6 +67,12 @@ chosen_button = None
 hose_state = False
 hose_over = False
 
+from enum import IntEnum
+class ButtonState(IntEnum):
+    UNPRESSED = 0
+    PRESSED   = 1
+# ButtonState.UNPRESSED/PRESSED
+
 #GPIO.setwarnings(False)
 #GPIO.setmode(GPIO.BOARD)
 #GPIO.setup(Solenoid1Pin, GPIO.OUT)
@@ -67,7 +81,7 @@ hose_over = False
 #GPIO.setup(Solenoid2Pin, GPIO.OUT)
 #GPIO.output(Solenoid2Pin, GPIO.HIGH)
 
-I2C_addresses = range ( 0x8, 0x19 )
+I2C_addresses = range ( 0x8, 0x19 ) # Slave (arduino button addresses) → decimal 8 through 24
 app = flask.Flask(__name__)
 """
 INITALISE ALL REQUIRED GLOBAL INFORMATION
@@ -87,7 +101,7 @@ class Button:
         self.LEDtype = ROTATE # type of light, 0 = normal, 1 = blink, 2 = circle pattern
         self.soundfreq = SOUND_2500
         self.soundstatus = 0
-        self.buttonstatus = False # button pressed or unpressed
+        self.buttonstatus = ButtonState.UNPRESSED
         self.bus = bus
         self.override = False # button has been overridden to a fixed value temporarily (hopefully)
         self.update = True # LED data needs updating
@@ -106,11 +120,11 @@ class Button:
         
         if not self.override: # don't check if override is set        
             try:
-                current_button_state = self.bus.read_byte(self.address)
+                current_button_state = ButtonState(self.bus.read_byte(self.address))
                 if current_button_state != self.buttonstatus:
                     self.buttonstatus = current_button_state
 
-                    if current_button_state == 1:  # Button is pressed
+                    if current_button_state == ButtonState.PRESSED:  # Button is pressed
                         print(f"pressed {hex(self.address)}")
                     else:
                         print(f"unpressed {hex(self.address)}")
@@ -126,7 +140,7 @@ class Button:
     def press ( self, t ):
         # simulate a button press for t seconds
         self.override = True
-        self.buttonstatus = 1
+        self.buttonstatus = ButtonState.PRESSED
         print (f"pressed {hex(self.address)}")
         time.sleep ( t )
         self.override = False   
@@ -371,7 +385,7 @@ def buttonspressed ( buttons ):
     count = 0
     
     for b in buttons:
-        if b.buttonstatus:
+        if b.buttonstatus == ButtonState.PRESSED:
             count = count + 1
             
     return count
@@ -410,7 +424,7 @@ def random_game():
                 time.sleep(0.01)
 
             # After button press
-            if chosen_button.buttonstatus == 1:
+            if chosen_button.buttonstatus == ButtonState.PRESSED:
                 print(f"Random game: correct button pressed, moving to next after {IntervalTime} seconds")
                 server_data['logging_message']="Correct Button Pressed"
                 chosen_button.setLED ( 0, 3 ) # turn LED off
@@ -476,7 +490,7 @@ def coop_game(num_buttons, timeout_timer):
     
             count = 0
             for b in chosen_buttons:
-                if b.buttonstatus == True:
+                if b.buttonstatus == ButtonState.PRESSED:
                     b.setLED( 0, 3 )
                     count = count + 1
                 else:
